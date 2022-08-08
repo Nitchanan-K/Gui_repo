@@ -35,19 +35,19 @@ class MainApp(ttk.Frame):
             self.rowconfigure(index=index, weight=1)
 
         # Create frame and widgets
-        self.strategy_frame().grid(row=0, column=0, rowspan=1,
+        self.strategy_frame().grid(row=0, column=0,
                                    padx=(20, 10), pady=(20, 10), sticky="nsew"
         )
 
-        self.trade_setup_frame().grid(row=1, column=0, rowspan=1,
+        self.trade_setup_frame().grid(row=1, column=0,
                                       padx=(20, 10), pady=(20, 10), sticky="n"
         )
 
-        self.data_select_frame().grid(row=0, column=1, rowspan=1,
+        self.data_select_frame().grid(row=1, column=1, rowspan=2,
                                       padx=(20, 10), pady=(20, 10), sticky="n"
         )
 
-        self.plot_save_data_frame().grid(row=1, column=1,
+        self.plot_save_data_frame().grid(row=0, column=1,
                                          padx=(20, 10), pady=(20, 10), sticky="n"
         )
 
