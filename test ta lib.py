@@ -1,6 +1,7 @@
 import talib as ta
 teelajen111@gmail.com
-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
+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
+
 
 # test branch
 # add this to branch
